@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Posts } from '../models/user.model';
-import { UserService } from '../services/user.service';
+
 
 @Component({
   selector: 'app-post-list',
