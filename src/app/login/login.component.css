@@ -1,0 +1,127 @@
+.bg-content-w3pvt {
+    max-width: 400px;
+    margin: 0 auto;
+    /* background: #fff; */
+    text-align: center;
+}
+
+.top-content-style {
+    padding: 4vw 4vw 4vw;
+    background-image:url('../../assets/tmp_1590038719584.jpg');
+    width: -webkit-fill-available;
+    padding: 4em 4em 5em;
+    border-bottom-left-radius: 70px 25px;
+    border-bottom-right-radius: 70px 25px;
+       
+  }
+
+.top-content-style p  {
+  
+    margin-bottom:50px;
+}
+.top-content-style h3{
+     margin-bottom:90px;
+     font-weight: 600;
+}
+.sub-main-w3 form {
+    background: #ffff;
+    padding: 1em;
+    box-shadow: 2px 5px 16px 2px rgba(16, 16, 16, 0.18);
+     margin: -8.5em 1em 2em;
+    border-radius: 10px;
+}
+
+p.legend {
+    color: #4e4d4d;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 1.2em;
+    font-weight: 600;
+}
+
+p.legend span {
+    color: #000;
+    margin-left: 10px;
+}
+
+.input {
+    position: relative;
+    margin: 20px auto;
+    width: 100%
+}
+
+.input span {
+    position: absolute;
+    display: block;
+    color: #ff5545;
+    right: 10px;
+    top: 12px;
+    font-size: 16px;
+    border-bottom-right-radius:20px
+}
+
+input[type=email], input[type=password]  {
+    width: 100%;
+    padding: 15px 10px 13px 12px;
+    display: block;
+    border: none;
+    border: 0.5px solid #000000;
+    color: #000;
+    box-sizing: border-box;
+    font-size: 11px;
+    outline: none;
+    letter-spacing: 1px;
+   
+}
+
+
+.login-button {
+    margin-top: 20px;
+    padding: 10px 0;
+    background-image:  linear-gradient(-90deg, #ff5545 , #fc6926);
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 400;
+    width: 100%;
+    border: none;
+    position: relative;
+    margin-bottom: 2em;
+    cursor: pointer;
+}
+.submit:hover {
+    opacity: .8;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    transition: 0.5s all;
+}
+
+.bottom-text a{
+    color: #000000;
+    font-size: 14px;
+    font-weight: 600;
+    float: right;
+    letter-spacing: 1px;
+    text-decoration:none;
+
+}
+.otp-text a{
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight:600;
+    text-decoration:none;
+}
+.error{
+    font-size: 11px;
+    color:red;
+    text-align: left;
+    font-weight: 600;
+}
+.invalid-login{
+    font-size: 12px;
+    color:#f80606;
+    text-align:center;
+    font-weight: 600;
+}

@@ -1,0 +1,16 @@
+<form class="form-inline justify-content-center" style="padding:50px" action="/action_page.php">
+  
+  <input #title type="text" class="form-control" placeholder="Write Post">
+ 
+  <button (click)="createPost(title)" class="btn btn-primary" style="margin-left:30px">Create</button>
+</form>
+
+<ul class="list-group">
+    <li *ngFor="let post of posts" class="list-group-item">
+      {{post.title}}
+      <button (click)="deletePost(post)"
+      class="btn btn-primary" style="margin-left:30px">delete</button>
+      <button (click)="updatePost(post)"
+      class="btn btn-primary" style="margin-left:30px">update</button>
+    </li>
+</ul>

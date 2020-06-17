@@ -1,0 +1,16 @@
+{
+  "Fake": [
+    {
+      "id": 1,
+      "todaysDateTime": true
+    },
+    {
+      "id": 2,
+      "todaysDateTime": true
+    },
+    {
+      "id": 3,
+      "todaysDateTime": "Wed Jun 10 2020 16:50:15 GMT+0530 (India Standard Time)"
+    }
+  ]
+}

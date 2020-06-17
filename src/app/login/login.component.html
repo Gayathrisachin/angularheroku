@@ -1,0 +1,42 @@
+<div class="main-bg">
+	<!-- content -->
+	<div class="sub-main-w3">
+		<div class="bg-content-w3pvt">
+			<div class=" top-content-style">
+				
+				<h3 style="color:#ffffff">Welcome To Modestack</h3>
+			</div>
+			<form [formGroup]="authForm" (ngSubmit)="logIn()" >
+					<p class="legend">Please Login here to mark your attendance<span class="fa fa-hand-o-down"></span></p>
+				<div class="input">
+						<input type="email" placeholder="Phone Number or Email" name="email" formControlName="email" >
+						<span class="fa fa-envelope"></span>
+						
+            			 <div *ngIf="isSubmitted && authForm.controls.email.errors" class="error">
+						   <div *ngIf="authForm.controls.email.errors.required">Email is required</div>
+						   <div *ngIf="authForm.controls.email.errors.pattern">Valid Email is required</div>
+						</div>
+				</div>
+			
+				<div class="input">
+						<input type="password" placeholder="Password" name="password" formControlName="password" required>
+						<span class="fa fa-unlock"></span>
+             			<div *ngIf="isSubmitted && authForm.controls.password.errors" class="error">
+          				<div *ngIf="authForm.controls.password.errors.required">Password is required</div>
+        		</div>
+				</div>
+				
+					
+            	<div class="button-group" >
+				  <button type="submit" class="login-button">Login</button>
+				</div>
+				<div *ngIf="invalidLogin" class="invalid-login">
+					Invalid credentials
+				</div>
+               
+			</form>	
+		</div>
+	</div>
+	
+</div>
+
